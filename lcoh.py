@@ -134,7 +134,6 @@ def calculate_project(inputs: ProjectInputs):
     return results
 
 if __name__ == "__main__":
-    # quick test
     defaults = ProjectInputs()
     res = calculate_project(defaults)
     print("LCOH INR/kg:", res['lcoh_inr_per_kg'])
